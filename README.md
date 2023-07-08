@@ -7,9 +7,9 @@
 # [![javascript](https://skillicons.dev/icons?i=js)](https://skillicons.dev) Javscript 
 
  - [let / const](https://github.com/minomad/study-repository/blob/main/JavaScript/variables.md)
- - [if / switch]()
+ - [if / switch](https://github.com/minomad/study-repository/blob/main/JavaScript/condition.md)
  - [while]()
  - [for]()
  - [function]()
- - [array]()
+ - [array](https://github.com/minomad/study-repository/blob/main/JavaScript/array-methods.md)
  - []()
