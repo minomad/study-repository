@@ -6,7 +6,7 @@
 
 # [![javascript](https://skillicons.dev/icons?i=js)](https://skillicons.dev) Javscript 
 
- - [let / const]()
+ - [let / const](https://github.com/minomad/study-repository/blob/main/JavaScript/variables.md)
  - [if / switch]()
  - [while]()
  - [for]()
