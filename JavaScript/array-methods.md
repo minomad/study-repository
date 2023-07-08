@@ -3,17 +3,15 @@
 기존 배열의 값을 변경하는 메서드
 ```js
 
-  let iveMebers = {
-    '안유진',
-    '가을',
-    '레이',
-    '장원영',
-    '리즈',
-    '이서',
+  let pokemon = {
+    '피카츄',
+    '파이리',
+    '꼬북이',
+    '이상해씨',
   };
 
 // push() 
-iveMebers.push('추가'); //마지막 인덱스에 추가
+pokemon.push('추가'); //마지막 인덱스에 추가
 
 // pop() 
 마지막 값을 삭제
@@ -40,8 +38,8 @@ iveMebers.push('추가'); //마지막 인덱스에 추가
 
 // spread operator
 값을 펼침
-let iveMembers2 = {
-  ...
+let pokemon2 = {
+  ...pokemon
 };
 ```
 
@@ -79,4 +77,27 @@ numbers.sort((a, b) => a > b ? -1 : 1);
 
 
 // map()
+pokemon.map(((x)=> `포켓몬: ${x}`));
+pokemon.map(((x)=>{
+  if(x === '피카츄'){
+    return `포켓몬: ${x}`;
+  }else{
+    return x;
+  }
+}));
+
+
+// filter()
+numbers = [1, 7, 4, 3, 6];
+
+numbers.filter((x) => x % 2 === 0)
+
+// find()
+해당하는 첫번째 값만 반환한다.
+
+// findIndex()
+
+// reduce()
+numbers.reduce((p, n) => p + n, 0)
+
 ```
