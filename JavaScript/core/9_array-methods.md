@@ -101,3 +101,8 @@ numbers.filter((x) => x % 2 === 0)
 numbers.reduce((p, n) => p + n, 0)
 
 ```
+
+
+let arr = [10, 'abc', true, null, undefined, function(){}, {}];
+
+console.log(arr[2]);

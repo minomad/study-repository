@@ -35,13 +35,28 @@ function testNum(a) {
 조건이 3~4개 이상일때 사용
 
 ```js
-let animal = 'dog'
-switch (animal) {
-	case 'dog':
+const pokemon = '피카츄'
+
+let gen;
+
+switch (pokemon) {
+	case '피카츄':
+    gen ='1세대';
 		break;
-	case 'cat':
+	case '파이리':
+    gen ='1세대';
 		break;
+  case '꼬북이':
+    gen ='1세대';
+		break;
+  case '이상해씨':
+    gen ='1세대';
+		break;
+  case '브케인':
+  case '치코리타':
+    gne ='2세대';
 	default;
+    gen ='3~9세대'
 		break;
 }
 ```
