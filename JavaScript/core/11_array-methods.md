@@ -1,6 +1,7 @@
-# arry-methods
+# array-methods
 
-기존 배열의 값을 변경하는 메서드
+### 기존 배열의 값을 변경하는 메서드
+
 ```js
 
   let pokemon = {
@@ -10,10 +11,10 @@
     '이상해씨',
   };
 
-// push() 
+// push()
 pokemon.push('추가'); //마지막 인덱스에 추가
 
-// pop() 
+// pop()
 마지막 값을 삭제
 
 // shift()
@@ -27,8 +28,8 @@ pokemon.push('추가'); //마지막 인덱스에 추가
 
 ```
 
----
-기존 배열의 값을 변경하지 않고 새로운 배열을 만들어서 값을 반환하는 메서드
+### 기존 배열의 값을 변경하지 않고 새로운 배열을 만들어서 값을 반환하는 메서드
+
 ```js
 // concat()
 새로운 array를 만들어서 반환
@@ -43,12 +44,12 @@ let pokemon2 = {
 };
 ```
 
-압도적으로 많이 사용하는 메서드
+## 압도적으로 많이 사용하는 메서드
 
 ```js
 // join()
 string으로 변환하는데 기본값으로 ,가 붙는다
-.join('/'); 
+.join('/');
 .join(', ');
 
 
@@ -101,7 +102,6 @@ numbers.filter((x) => x % 2 === 0)
 numbers.reduce((p, n) => p + n, 0)
 
 ```
-
 
 let arr = [10, 'abc', true, null, undefined, function(){}, {}];
 
