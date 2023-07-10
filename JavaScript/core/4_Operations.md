@@ -37,7 +37,6 @@ console.log(number);
 
 `T||` 첫 번째 `true` 찾습니다.
 
-
 ```js
 let firstName = '';
 let lastName = '';

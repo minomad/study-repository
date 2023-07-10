@@ -22,6 +22,3 @@
 ### [array](https://github.com/minomad/study-repository/blob/main/JavaScript/core/11_array-methods.md)
  - [reduce](https://github.com/minomad/study-repository/blob/main/JavaScript/method/reduce.md)
  - 
-<!-- ## class -->
-<!-- ## API
-## 비동기 -->

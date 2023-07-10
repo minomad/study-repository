@@ -79,4 +79,5 @@ console.log(Boolean(0));
 
 console.log('암시적 형 변환 : ' + !!false);
 ```
+
 문자열 '0'은 `true`

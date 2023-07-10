@@ -1,6 +1,6 @@
 # 자료형
 
-여섯개의 primitive 타입과 한개의 object 타입이 있습브니다.
+여섯개의 primitive 타입과 한개의 object 타입이 있습니다.
 
 ## <span style="color:#f5f0ff" > Number 숫자 </span>
 

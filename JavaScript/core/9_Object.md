@@ -1,6 +1,6 @@
 # 객체
 
-키와 값들을 그룹으로 묶은 모음
+키와 값들을 그룹으로 묶음
 
 객체는 key: valu의 형태로 중괄호{}안에 정의하는데 이를 속성(properites)라고 합니다.
 
@@ -19,6 +19,7 @@ let pikachu = {
 ```
 
 ## const로 선언한 객체의 특징
+
 const 객체 자체를 변경할수는 없지만 객체 안의 프로퍼티나 메서드는 변경할 수 있다.
 
 ```js
@@ -33,19 +34,20 @@ const picachu = {
   [groupKey]: groupvalue,
   skill: function () {
     return `${this.name} 백만볼트`;
-  }
+  },
 };
 picachu['group'] = '디지몬';
 picachu['eng'] = 'picachu';
 ```
 
 모든 키값
+
 ```js
-Object.keys(picachu)
+Object.keys(picachu);
 ```
 
 모든 벨류값
-```js
-Object.values(picachu)
-```
 
+```js
+Object.values(picachu);
+```
