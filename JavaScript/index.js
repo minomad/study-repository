@@ -1,6 +1,13 @@
-const arr = [1, 2, 3, 4, 5];
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
 
-//acc = 누적 item = 현재 돌고 있는 요소
-const sum = arr.reduce((acc, item) => acc + item, 0);
+// 복사
+const arrCopy = [...arr1];
 
-console.log(sum);
+// 추가
+const arr3 = [1, 2, 3, ...arr2, 7, 8, 9];
+
+// 이어 붙이기
+const arr4 = [...arr1, ...arr2];
+
+console.log(arr4);

@@ -21,4 +21,7 @@
 ## method
 ### [array](https://github.com/minomad/study-repository/blob/main/JavaScript/core/11_array-methods.md)
  - [reduce](https://github.com/minomad/study-repository/blob/main/JavaScript/method/reduce.md)
- - 
+
+
+## ES6
+ - [spread syntax](https://github.com/minomad/study-repository/blob/main/JavaScript/ES6/spreadsyntax.md)
