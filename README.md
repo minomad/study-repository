@@ -20,8 +20,8 @@
  - [array](https://github.com/minomad/study-repository/blob/main/JavaScript/core/11_array-methods.md)
 
 <!-- ## class -->
-<!-- ## Prototype -->
- - [reduce](https://github.com/minomad/study-repository/blob/main/JavaScript/prototype/reduce.md)
+## method
+ - [reduce](https://github.com/minomad/study-repository/blob/main/JavaScript/method/reduce.md)
 
 ## API
 ## 비동기
