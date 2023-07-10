@@ -21,7 +21,7 @@
 
 <!-- ## class -->
 ## Prototype
- - [reduce](https://github.com/minomad/study-repository/blob/main/JavaScript/core/11_array-methods.md)
+ - [reduce](https://github.com/minomad/study-repository/blob/main/JavaScript/prototype/reduce.md)
 
 ## API
 ## 비동기
