@@ -26,6 +26,29 @@ number--;
 console.log(number);
 ```
 
+## 할당 연산자
+
+y의 값을 x에 할당
+
+```js
+x = y;
+x -= y;
+x *= y;
+x /= y;
+x += y;
+x %= y;
+```
+
+## 비교 연산자
+
+```js
+1 == 1;
+1 === '1';
+
+1 != '1';
+1 !== '1';
+```
+
 ## 논리 연산자
 
 - &&를 사용했을때 좌측이 true면 우측 값 반환
@@ -98,4 +121,17 @@ console.log(name);
 let name2;
 name2 ??= 'nickname';
 console.log(name2);
+```
+
+## 삼항 연산자
+
+조건부 랜더링에서 사용
+
+```js
+let result = 조건 ? true : false;
+```
+
+```js
+const array = [];
+let text = array.length === 0 ? '배열이 비어있습니다' : '배열이 비어있지 않습니다.';
 ```

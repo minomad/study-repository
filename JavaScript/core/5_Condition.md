@@ -62,16 +62,3 @@ switch (pokemon) {
 ```
 
 if문은 조건들을 다 확인하지만 switch문은 이름표를 보고 확인
-
-## 삼항 연산자
-
-조건부 랜더링에서 사용
-
-```js
-let result = 조건 ? true : false;
-```
-
-```js
-const array = [];
-let text = array.length === 0 ? '배열이 비어있습니다' : '배열이 비어있지 않습니다.';
-```
