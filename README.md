@@ -17,6 +17,7 @@
  - [function](https://github.com/minomad/study-repository/blob/main/JavaScript/core/8_functions.md)
  - [Object](https://github.com/minomad/study-repository/blob/main/JavaScript/core/9_Object.md)
  - [hoisting](https://github.com/minomad/study-repository/blob/main/JavaScript/core/10_Hoisting.md)
+ - [IIFE](https://github.com/minomad/study-repository/blob/main/JavaScript/core/IIFE.md)
 
 ## method
 ### [array](https://github.com/minomad/study-repository/blob/main/JavaScript/core/11_array-methods.md)
@@ -24,4 +25,4 @@
 
 
 ## ES6
- - [spread syntax](https://github.com/minomad/study-repository/blob/main/JavaScript/ES6/spreadsyntax.md)
+ - [spread syntax](https://github.com/minomad/study-repository/blob/main/JavaScript/ES6/spread-syntax.md)
