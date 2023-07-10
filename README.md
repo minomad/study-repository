@@ -17,11 +17,11 @@
  - [function](https://github.com/minomad/study-repository/blob/main/JavaScript/core/8_functions.md)
  - [Object](https://github.com/minomad/study-repository/blob/main/JavaScript/core/9_Object.md)
  - [hoisting](https://github.com/minomad/study-repository/blob/main/JavaScript/core/10_Hoisting.md)
- - [array](https://github.com/minomad/study-repository/blob/main/JavaScript/core/11_array-methods.md)
 
-<!-- ## class -->
 ## method
+### [array](https://github.com/minomad/study-repository/blob/main/JavaScript/core/11_array-methods.md)
  - [reduce](https://github.com/minomad/study-repository/blob/main/JavaScript/method/reduce.md)
-
-## API
-## 비동기
+ - 
+<!-- ## class -->
+<!-- ## API
+## 비동기 -->
