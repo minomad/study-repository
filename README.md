@@ -6,6 +6,7 @@
 
 # [![javascript](https://skillicons.dev/icons?i=js)](https://skillicons.dev) Javscript 
 
+## core
  - [let / const](https://github.com/minomad/study-repository/blob/main/JavaScript/core/1_Variables.md)
  - [DataType](https://github.com/minomad/study-repository/blob/main/JavaScript/core/2_DataTypes.md)
  - [TypeConversion](https://github.com/minomad/study-repository/blob/main/JavaScript/core/3_TypeConversion.md)
@@ -17,3 +18,10 @@
  - [Object](https://github.com/minomad/study-repository/blob/main/JavaScript/core/9_Object.md)
  - [hoisting](https://github.com/minomad/study-repository/blob/main/JavaScript/core/10_Hoisting.md)
  - [array](https://github.com/minomad/study-repository/blob/main/JavaScript/core/11_array-methods.md)
+
+<!-- ## class -->
+## Prototype
+ - [reduce](https://github.com/minomad/study-repository/blob/main/JavaScript/core/11_array-methods.md)
+
+## API
+## 비동기

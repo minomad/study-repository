@@ -98,9 +98,6 @@ numbers.filter((x) => x % 2 === 0)
 
 // findIndex()
 
-// reduce()
-numbers.reduce((p, n) => p + n, 0)
-
 ```
 
 let arr = [10, 'abc', true, null, undefined, function(){}, {}];
