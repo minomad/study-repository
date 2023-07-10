@@ -20,7 +20,7 @@
  - [array](https://github.com/minomad/study-repository/blob/main/JavaScript/core/11_array-methods.md)
 
 <!-- ## class -->
-## Prototype
+<!-- ## Prototype -->
  - [reduce](https://github.com/minomad/study-repository/blob/main/JavaScript/prototype/reduce.md)
 
 ## API
