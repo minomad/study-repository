@@ -18,8 +18,9 @@
 - [function 함수](https://github.com/minomad/study-repository/blob/main/JavaScript/core/8_functions.md)
 - [hoisting](https://github.com/minomad/study-repository/blob/main/JavaScript/core/10_Hoisting.md)
 - [IIFE 즉시실행 함수](https://github.com/minomad/study-repository/blob/main/JavaScript/core/IIFE.md)
-- [값 복사와 참조](https://github.com/minomad/study-repository/blob/main/JavaScript/core/복사,참조.md)
 - [this](https://github.com/minomad/study-repository/blob/main/JavaScript/core/this.md)
+- [값 복사와 참조](https://github.com/minomad/study-repository/blob/main/JavaScript/core/복사,참조.md)
+- [구조 분해 할당](https://github.com/minomad/study-repository/blob/main/JavaScript/core/구조분해할당.md)
 <!-- - -[closure]() -->
 
 ## method

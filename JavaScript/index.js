@@ -1,3 +1,0 @@
-deleteProperty(authUser, 'name');
-
-
