@@ -1,6 +1,6 @@
 # study-repository
 
-> 학습 저장소
+> 학습 정리
 
 <br/>
 
