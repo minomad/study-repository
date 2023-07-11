@@ -19,9 +19,9 @@
 - [hoisting](https://github.com/minomad/study-repository/blob/main/JavaScript/core/10_Hoisting.md)
 - [IIFE 즉시실행 함수](https://github.com/minomad/study-repository/blob/main/JavaScript/core/IIFE.md)
 - [this](https://github.com/minomad/study-repository/blob/main/JavaScript/core/this.md)
-- [값 복사와 참조](https://github.com/minomad/study-repository/blob/main/JavaScript/core/복사,참조.md)
+- [얕은 복사, 깊은 복사](https://github.com/minomad/study-repository/blob/main/JavaScript/core/복사.md)
 - [구조 분해 할당](https://github.com/minomad/study-repository/blob/main/JavaScript/core/구조분해할당.md)
-<!-- - -[closure]() -->
+- [Closure 클로저](https://github.com/minomad/study-repository/blob/main/JavaScript/core/closure.md)
 
 ## method
 
