@@ -1,3 +1,3 @@
-
+deleteProperty(authUser, 'name');
 
 
