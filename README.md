@@ -19,7 +19,7 @@
 - [hoisting](https://github.com/minomad/study-repository/blob/main/JavaScript/core/10_Hoisting.md)
 - [IIFE 즉시실행 함수](https://github.com/minomad/study-repository/blob/main/JavaScript/core/IIFE.md)
 - [값 복사와 참조](https://github.com/minomad/study-repository/blob/main/JavaScript/core/복사,참조.md)
-- [this]()
+- [this](https://github.com/minomad/study-repository/blob/main/JavaScript/core/this.md)
 <!-- - -[closure]() -->
 
 ## method
@@ -27,6 +27,7 @@
 ### [array](https://github.com/minomad/study-repository/blob/main/JavaScript/core/11_array.md)
 
 - [reduce](https://github.com/minomad/study-repository/blob/main/JavaScript/method/reduce.md)
+- [forEach](https://github.com/minomad/study-repository/blob/main/JavaScript/method/forEach.md)
 
 ### [object](https://github.com/minomad/study-repository/blob/main/JavaScript/core/9_Object.md)
 
