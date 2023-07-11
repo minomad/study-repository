@@ -15,7 +15,7 @@ console.log(this); // window
 
 ## 일반 함수에서 this
 
-일반 함수에서의 this는 window
+일반 함수의 this는 window
 
 ```js
 function num() {
