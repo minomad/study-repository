@@ -24,13 +24,37 @@ function num() {
 num(); //window
 ```
 
-
 ## 객체에서 this
 
 객체의 method로 호출될 때 this는 해당 객체를 가리킵니다.
+
+```js
+function foo() {
+  console.log(this);
+}
+const obj = {
+  num: [1, 2, 3],
+  foo,
+};
+
+obj.foo(); // this obj
+```
 
 객체의 메서드를 정의할 객체의 메서드를 `정의`할 때는 `일반 함수`를 사용하는 것이 좋습니다.
 
 객체의 메서드 `안에서` 함수를 호출할 땐 `화살표 함수`가 더 좋습니다.
 
 화살표함수는 부모(상위 컨텍스트)의 this를 가져옵니다.
+
+
+```js
+let user = {
+  firstName: "보라",
+  sayHi() {
+    let arrow = () => alert(this.firstName);
+    arrow();
+  }
+};
+
+user.sayHi(); // 보라
+```
