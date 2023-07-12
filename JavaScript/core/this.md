@@ -46,15 +46,38 @@ obj.foo(); // this obj
 
 화살표함수는 부모(상위 컨텍스트)의 this를 가져옵니다.
 
-
 ```js
 let user = {
-  firstName: "보라",
+  firstName: '보라',
   sayHi() {
     let arrow = () => alert(this.firstName);
     arrow();
-  }
+  },
 };
 
 user.sayHi(); // 보라
 ```
+
+이런 경우는 화살표 함수의 this는 window
+
+```js
+const navigationMenu = {
+  name: '글로벌 내비게이션',
+  items: [
+    { id: '', text: '', link: '' },
+  ],
+  getItem(index) {
+    return this.items[index];
+  },
+  addItem = (newItem) => {
+    this.items.push(newItem); // 화살표함수의 this는 window
+    console.log(this);
+  },
+};
+
+```
+
+## 결론
+객체 안에서 메서드는 Concise 메서드를 사용하고 <br/>
+메서드 안에서 함수는 화살표 함수를 사용하자
+
