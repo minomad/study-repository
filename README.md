@@ -21,6 +21,7 @@
 - [this](https://github.com/minomad/study-repository/blob/main/JavaScript/core/this.md)
 - [얕은 복사, 깊은 복사](https://github.com/minomad/study-repository/blob/main/JavaScript/core/복사.md)
 - [구조 분해 할당](https://github.com/minomad/study-repository/blob/main/JavaScript/core/구조분해할당.md)
+- [Class 클래스](https://github.com/minomad/study-repository/blob/main/JavaScript/core/class.md)
 - [Closure 클로저](https://github.com/minomad/study-repository/blob/main/JavaScript/core/closure.md)
 
 ## method
