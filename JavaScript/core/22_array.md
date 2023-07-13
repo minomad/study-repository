@@ -1,5 +1,8 @@
 # array-methods
 
+배열에 올 수 있는 요소들 </br>
+let arr = [10, 'abc', true, null, undefined, function(){}, {}];
+
 ### 기존 배열의 값을 변경하는 메서드
 
 ```js
@@ -12,7 +15,7 @@
   };
 
 // push()
-pokemon.push('추가'); //마지막 인덱스에 추가
+pokemon.push('브케인'); //마지막 인덱스에 추가
 
 // pop()
 마지막 값을 삭제
@@ -78,20 +81,11 @@ numbers.sort((a, b) => a > b ? -1 : 1);
 
 
 // map()
-pokemon.map(((x)=> `포켓몬: ${x}`));
-pokemon.map(((x)=>{
-  if(x === '피카츄'){
-    return `포켓몬: ${x}`;
-  }else{
-    return x;
-  }
-}));
+
 
 
 // filter()
-numbers = [1, 7, 4, 3, 6];
 
-numbers.filter((x) => x % 2 === 0)
 
 // find()
 해당하는 첫번째 값만 반환한다.
@@ -99,10 +93,6 @@ numbers.filter((x) => x % 2 === 0)
 // findIndex()
 
 ```
-
-let arr = [10, 'abc', true, null, undefined, function(){}, {}];
-
-console.log(arr[2]);
 
 ## forEach
 

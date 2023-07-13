@@ -26,8 +26,10 @@
 - [프로토타입과 상속](https://github.com/minomad/study-repository/blob/main/JavaScript/core/16_프로토타입과상속.md)
 - [Class 클래스](https://github.com/minomad/study-repository/blob/main/JavaScript/core/17_class.md)
 - [Closure 클로저](https://github.com/minomad/study-repository/blob/main/JavaScript/core/18_closure.md)
-- [array 배열](https://github.com/minomad/study-repository/blob/main/JavaScript/core/19_array.md)
-- [원시값의 메서드](https://github.com/minomad/study-repository/blob/main/JavaScript/core/20_PrimitiveMethods.md)
+- [원시값의 메서드](https://github.com/minomad/study-repository/blob/main/JavaScript/core/19_PrimitiveMethods.md)
+- [number 숫자형](https://github.com/minomad/study-repository/blob/main/JavaScript/core/20_number.md)
+- [string 문자열](https://github.com/minomad/study-repository/blob/main/JavaScript/core/21_string.md)
+- [array 배열](https://github.com/minomad/study-repository/blob/main/JavaScript/core/22_array.md)
 - [spread syntax](https://github.com/minomad/study-repository/blob/main/JavaScript/core/spread-syntax.md)
 - [arrow-function](https://github.com/minomad/study-repository/blob/main/JavaScript/core/arrow-function.md)
 
