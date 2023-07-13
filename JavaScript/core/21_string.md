@@ -7,6 +7,8 @@ let message = 'less is more.';
 let stringTotalLength = message.length;
 console.log('stringTotalLength : ', stringTotalLength);
 
+// split 문자열을 배열로 반환
+
 // 특정 인덱스의 글자 추출
 let extractCharacter = message[10];
 console.log('extractCharacter : ', extractCharacter);
@@ -46,21 +48,16 @@ let endsWith = message.endsWith('.');
 console.log('endsWith : ', endsWith);
 
 // 공백 잘라내기
-let trimLeft = message.trimLeft();
-let trimRight;
+let trim = str.trim();
+let trimStart = str.trimStart();
+let trimEnd = str.trimEnd();
 
 let str = '    a b        c   d   e   a   s    d q         ';
-
-// console.log( str.split(' ').join('') );
-
-// str.replace(/\s*/g,'');
+str.replace(/\s*/g, '');
 
 function normalText(string) {
   return string.replace(/\s*/g, '');
 }
-
-let trim = str.trim();
-
 // console.log('trim : ',trim)
 
 // 텍스트 반복
