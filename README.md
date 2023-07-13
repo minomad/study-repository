@@ -27,4 +27,7 @@
 - [Class 클래스](https://github.com/minomad/study-repository/blob/main/JavaScript/core/class.md)
 - [Closure 클로저](https://github.com/minomad/study-repository/blob/main/JavaScript/core/closure.md)
 - [array 배열](https://github.com/minomad/study-repository/blob/main/JavaScript/core/11_array.md)
-- [spread syntax](https://github.com/minomad/study-repository/blob/main/JavaScript/ES6/spread-syntax.md)
+- [spread syntax](https://github.com/minomad/study-repository/blob/main/JavaScript/core/spread-syntax.md)
+- [arrow-function](https://github.com/minomad/study-repository/blob/main/JavaScript/core/arrow-function.md)
+
+## dom
