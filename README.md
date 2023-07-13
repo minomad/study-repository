@@ -16,6 +16,7 @@
 - [while 반복문](https://github.com/minomad/study-repository/blob/main/JavaScript/core/6_while.md)
 - [for 반복문](https://github.com/minomad/study-repository/blob/main/JavaScript/core/7_for.md)
 - [function 함수](https://github.com/minomad/study-repository/blob/main/JavaScript/core/8_functions.md)
+- [object 객체](https://github.com/minomad/study-repository/blob/main/JavaScript/core/9_Object.md)
 - [hoisting](https://github.com/minomad/study-repository/blob/main/JavaScript/core/10_Hoisting.md)
 - [IIFE 즉시실행 함수](https://github.com/minomad/study-repository/blob/main/JavaScript/core/IIFE.md)
 - [this](https://github.com/minomad/study-repository/blob/main/JavaScript/core/this.md)
@@ -25,17 +26,8 @@
 - [생성자 함수](https://github.com/minomad/study-repository/blob/main/JavaScript/core/생성자함수.md)
 - [Class 클래스](https://github.com/minomad/study-repository/blob/main/JavaScript/core/class.md)
 - [Closure 클로저](https://github.com/minomad/study-repository/blob/main/JavaScript/core/closure.md)
+- [array 배열](https://github.com/minomad/study-repository/blob/main/JavaScript/core/11_array.md)
 
-## method
-
-### [array](https://github.com/minomad/study-repository/blob/main/JavaScript/core/11_array.md)
-
-- [reduce](https://github.com/minomad/study-repository/blob/main/JavaScript/method/reduce.md)
-- [forEach](https://github.com/minomad/study-repository/blob/main/JavaScript/method/forEach.md)
-
-### [object](https://github.com/minomad/study-repository/blob/main/JavaScript/core/9_Object.md)
-
-- [hasOwnProperty](https://github.com/minomad/study-repository/blob/main/JavaScript/method/reduce.md)
 
 ## ES6
 

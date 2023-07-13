@@ -103,3 +103,72 @@ numbers.filter((x) => x % 2 === 0)
 let arr = [10, 'abc', true, null, undefined, function(){}, {}];
 
 console.log(arr[2]);
+
+## forEach
+
+배열에서 루프가 필요할 때 사용
+
+파라미터로 주어진 함수를 배열 요소 각각에 대해 실행하는 메서드
+
+map 메서드와 비슷하지만 차이점은 return이 없다는 점
+
+```js
+array.forEach(function(currentValue, index, arr));
+```
+
+```js
+let pokemon = ['피카츄', '파이리', '꼬북이'];
+
+pokemon.forEach(myPoke);
+
+function myPoke(item) {
+  console.log(item); // 피카츄 파이리 꼬북이
+}
+```
+
+```js
+let pokemon = ['피카츄', '파이리', '꼬북이'];
+
+pokemon.forEach(myPoke);
+
+function myPoke(item, index, arr) {
+  arr[index] = 'Hello ' + item;
+}
+
+console.log(pokemon); // [ 'Hello 피카츄', 'Hello 파이리', 'Hello 꼬북이' ]
+```
+
+## from
+
+문자열, 유사 배열 객체를 배열로 만들어 주는 메서드
+
+```js
+// 1. 문자열을 배열로 만드는 예시
+console.log(Array.from('Hello'));
+// [ 'H', 'e', 'l', 'l', 'o' ]
+
+// 2. 유사 배열 객체를 배열로 만드는 예시
+console.log(Array.from({ 0: '찬민', 1: '희진', 2: '태인', length: 3 }));
+// [ '찬민', '희진', '태인' ]
+
+// 3. 함수의 매개변수들을 순서대로 배열로 만드는 예시
+const funcA = (...arguments) => {
+  return Array.from(arguments);
+};
+
+console.log(funcA(1, 2, 3, 4, 5));
+// [ 1, 2, 3, 4, 5 ]
+```
+
+## reduce
+
+배열의 값을 누적으로 연산하고 반환합니다.
+
+```js
+const arr = [1, 2, 3, 4, 5];
+
+//acc = 누적 item = arr의 값이 순환
+const sum = arr.reduce((acc, item) => acc + item, 0);
+
+console.log(sum); // 15
+```
