@@ -30,7 +30,9 @@
 - [number 숫자형](https://github.com/minomad/study-repository/blob/main/JavaScript/core/20_number.md)
 - [string 문자열](https://github.com/minomad/study-repository/blob/main/JavaScript/core/21_string.md)
 - [array 배열](https://github.com/minomad/study-repository/blob/main/JavaScript/core/22_array.md)
+- [arguments 유사배열 객체](https://github.com/minomad/study-repository/blob/main/JavaScript/core/23_aruments.md)
 - [spread syntax](https://github.com/minomad/study-repository/blob/main/JavaScript/core/spread-syntax.md)
-- [arrow-function](https://github.com/minomad/study-repository/blob/main/JavaScript/core/arrow-function.md)
+- [rest parametert](https://github.com/minomad/study-repository/blob/main/JavaScript/core/rest-parametert.md)
+- [arrow function](https://github.com/minomad/study-repository/blob/main/JavaScript/core/arrow-function.md)
 
 ## dom
