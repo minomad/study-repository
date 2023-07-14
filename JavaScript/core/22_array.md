@@ -1,4 +1,5 @@
 # array-methods
+배열도 객체
 
 배열에 올 수 있는 요소들 </br>
 let arr = [10, 'abc', true, null, undefined, function(){}, {}];
@@ -29,6 +30,8 @@ pokemon.push('브케인'); //마지막 인덱스에 추가
 // splice(0,3)
 0~3번까지 삭제
 
+스택 = 후입선출
+큐 - 선입선출
 ```
 
 ### 기존 배열의 값을 변경하지 않고 새로운 배열을 만들어서 값을 반환하는 메서드
@@ -162,3 +165,5 @@ const sum = arr.reduce((acc, item) => acc + item, 0);
 
 console.log(sum); // 15
 ```
+
+## 
