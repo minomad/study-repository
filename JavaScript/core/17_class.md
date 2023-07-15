@@ -15,11 +15,11 @@ class Animal {
     // tiger상수에 의해서 최초 1회 실행
     this.name = name; // tiger.name = '호돌이' 값을 받기위해서 this
   }
-  set eat(food) {
-    // 값을 셋팅
+  set eat(food) {//value가 꼭 있어야 합니다.
+    // 값을 셋팅 
     this.stomach.push(food);
   }
-  get eat() {
+  get eat() { // return이 꼭 있어야 합니다.
     // 값을 가져온다.
     return this.stomach;
   }

@@ -1,4 +1,5 @@
 # array-methods
+
 배열도 객체
 
 배열에 올 수 있는 요소들 </br>
@@ -83,7 +84,6 @@ numbers.sort((a, b)=>{
 numbers.sort((a, b) => a > b ? -1 : 1);
 
 
-// map()
 
 
 
@@ -95,6 +95,26 @@ numbers.sort((a, b) => a > b ? -1 : 1);
 
 // findIndex()
 
+```
+
+## map
+react에서 많이 사용합니다. (중요!)<br/>
+map과 reduce는 값을 내보내야 합니다.
+```js
+
+```
+
+## reduce
+
+배열의 값을 누적으로 연산하고 반환합니다.
+
+```js
+const arr = [1, 2, 3, 4, 5];
+
+//acc = 누적 item = arr의 값이 순환
+const sum = arr.reduce((acc, item) => acc + item, 0);
+
+console.log(sum); // 15
 ```
 
 ## forEach
@@ -153,17 +173,4 @@ console.log(funcA(1, 2, 3, 4, 5));
 // [ 1, 2, 3, 4, 5 ]
 ```
 
-## reduce
-
-배열의 값을 누적으로 연산하고 반환합니다.
-
-```js
-const arr = [1, 2, 3, 4, 5];
-
-//acc = 누적 item = arr의 값이 순환
-const sum = arr.reduce((acc, item) => acc + item, 0);
-
-console.log(sum); // 15
-```
-
-## 
+##
