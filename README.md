@@ -42,3 +42,6 @@
 - [arrow function](https://github.com/minomad/study-repository/blob/main/JavaScript/core/arrow-function.md)
 
 ## dom
+
+- [BOM](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/1_BOM.md)
+- [DOM](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/2_DOM.md)
