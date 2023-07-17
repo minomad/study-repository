@@ -26,8 +26,8 @@ let arr = ['사과', '복숭아', '바나나'];
 arr.forEach(fruit);
 
 function fruit(item, index, arr) {
-  arr[index] = 'Hello ' + item;
+  arr[index] = '맛있는 ' + item;
 }
 
-console.log(arr); // [ 'Hello 사과', 'Hello 복숭아', 'Hello 바나나' ]
+console.log(arr); // [ '맛있는 사과', '맛있는 복숭아', '맛있는 바나나' ]
 ```

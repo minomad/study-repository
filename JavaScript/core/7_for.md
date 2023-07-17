@@ -48,14 +48,14 @@ myArray.forEach((element) => {});
 프로퍼티값도 출력한다
 
 ```js
-const pokemon = {
-  name: '피카츄',
-  sound: '피카',
+const animal = {
+  name: '강아지',
+  sound: '멍멍',
   age: 2,
 };
 
-for (key in pokemon) {
-  console.log(`${key}: ${pokemon[key]}`);
+for (key in animal) {
+  console.log(`${key}: ${animal[key]}`);
 }
 ```
 

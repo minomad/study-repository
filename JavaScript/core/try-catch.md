@@ -1,22 +1,16 @@
 # try...catch
 
-발생시킬때 -> 던진다고한다. (throw)
-명시적으로 인지할때 -> 잡는다고 한다. (catch)
+오류 상황에 대응하고, 정보를 수집하며, 리소스를 안전하게 정리하고, 대안 실행 경로를 설정하는 등의 작업을 수행할 때 사용합니다.
 
 ```js
-function runner() {
+function run() {
   try {
-    console.log('Hello');
-
-    throw new Error('큰 문제가 생겼습니다!'); // 여기서 바로 catch문으로 간다
-
-    console.log('Code Factory');
-  } catch (e) {
-    console.log('---catch---');
-    console.log(e);
+    // 예외가 발생할 수 있는 코드
+  } catch (error) {
+    // 예외 처리 코드
   } finally {
-    console.log('---finally---');
+    // 항상 실행되는 코드
   }
 }
-runner();
+run();
 ```

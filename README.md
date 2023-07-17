@@ -36,6 +36,7 @@
   - [.forEach()](https://github.com/minomad/study-repository/blob/main/JavaScript/core/22-4_forEach.md)
 - [arguments 유사배열 객체](https://github.com/minomad/study-repository/blob/main/JavaScript/core/23_aruments.md)
 - [재귀함수](https://github.com/minomad/study-repository/blob/main/JavaScript/core/24_재귀함수.md)
+- [try catch](https://github.com/minomad/study-repository/blob/main/JavaScript/core/try-catch.md)
 - [spread syntax](https://github.com/minomad/study-repository/blob/main/JavaScript/core/spread-syntax.md)
 - [rest parametert](https://github.com/minomad/study-repository/blob/main/JavaScript/core/rest-parametert.md)
 - [arrow function](https://github.com/minomad/study-repository/blob/main/JavaScript/core/arrow-function.md)

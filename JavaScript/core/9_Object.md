@@ -11,11 +11,11 @@
 객체의 프로퍼티 값으로 함수도 사용이 가능하다
 
 ```js
-let pikachu = {
-  name: '피카츄',
-  group: '포켓몬',
+let dog = {
+  name: '강아지',
+  group: '동물',
   skill: function () {
-    return `${this.name} 백만볼트`;
+    return `${this.name} 멍멍`;
   },
 };
 ```
@@ -26,20 +26,20 @@ const 객체 자체를 변경할수는 없지만 객체 안의 프로퍼티나 �
 
 ```js
 const nameKey = 'name';
-const nameValue = '피카츄';
+const nameValue = '고양이';
 
 const groupKey = 'group';
-const groupvalue = '포켓몬';
+const groupvalue = '동물';
 
-const picachu = {
+const cat = {
   [nameKey]: nameValue,
   [groupKey]: groupvalue,
   skill: function () {
-    return `${this.name} 백만볼트`;
+    return `${this.name} 야옹`;
   },
 };
-picachu['group'] = '1세대 포켓몬';
-picachu['eng'] = 'picachu';
+cat['group'] = '동물';
+cat['eng'] = 'cat';
 ```
 
 ## 객체에 접근
@@ -62,13 +62,13 @@ delete obj.a;
 #### 모든 키값
 
 ```js
-Object.keys(picachu);
+Object.keys(cat);
 ```
 
 #### 모든 벨류값
 
 ```js
-Object.values(picachu);
+Object.values(cat);
 ```
 
 ### 프로퍼티 나열
