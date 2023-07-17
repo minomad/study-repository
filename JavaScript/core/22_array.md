@@ -9,15 +9,15 @@ let arr = [10, 'abc', true, null, undefined, function(){}, {}];
 
 ```js
 
-  let pokemon = {
-    '피카츄',
-    '파이리',
-    '꼬북이',
-    '이상해씨',
+  let arr = {
+    '사과',
+    '복숭아',
+    '바나나',
+    '포도',
   };
 
 // push()
-pokemon.push('브케인'); //마지막 인덱스에 추가
+arr.push('수박'); //마지막 인덱스에 추가
 
 // pop()
 마지막 값을 삭제
@@ -33,122 +33,85 @@ pokemon.push('브케인'); //마지막 인덱스에 추가
 
 스택 = 후입선출
 큐 - 선입선출
+
+// reverse
+const arr = [1, 2, 3, 4, 5];
+arr.reverse();
+
+console.log(arr);  // [5, 4, 3, 2, 1]
+
+// splice 맥가이버 칼 추가 제거
+arr.splice(start, deleteCount, item1, item2, ...);
+arr.splice(1, 0, 5, 13); // [1, 5, 13, 2, 3, 4, 5]
+
 ```
 
 ### 기존 배열의 값을 변경하지 않고 새로운 배열을 만들어서 값을 반환하는 메서드
 
 ```js
 // concat()
-새로운 array를 만들어서 반환
+// 배열에 다른 배열이나 값들을 연결하여서 새로운 배열을 생성
 
 // slice(0,3)
-3번 인덱스 밑에까지만 삭제
+//0번 인덱스에서 2번인덱스들로 이러우진 새로운 배열로 반환
 
-// spread operator
-값을 펼침
-let pokemon2 = {
-  ...pokemon
-};
+// toSorted
+arr.toSorted((a, b) => {
+  return b - a;
+});
+
+// toReversed (시작,제거)
+const toReversed = arr.toReversed();
+
+// toSpliced
+const toSpliced = arr.toSpliced(2, 0, 'js', 'css', 'react');
+
 ```
 
 ## 압도적으로 많이 사용하는 메서드
 
 ```js
+
+let numbers = {1,9,7,5,3,2,};
+
+
 // join()
-string으로 변환하는데 기본값으로 ,가 붙는다
-.join('/');
-.join(', ');
+// string으로 변환하는데 기본값으로 ,가 붙는다
+numbers.join('/'); // 1/9/7/5/3/2
+numbers.join(', '); // 1, 9, 7, 5, 3, 2
 
 
-// sort()
-오름차순 정렬
+// sort
+// compare 함수를 사용
+// 반환 값 < 0 : a가 b보다 앞에 있어어야
+// 반환 값 == 0 : a와 b의 순서를 바꾸지 않음
+// 반환 값 > 0 : b가 a보다 앞에 있어야 한다.
+// 리턴된 값으로 비교
 
-let numbers = {
-  1,
-  9,
-  7,
-  5,
-  3,
-  2,
-};
-// a, b를 비교했을때
-// 1) a를 b 보다 나중에 정렬하려면 0보다 큰 숫자를 반환
-// 2) a를 b 보다 먼저 정렬하려면 0보다 작은 숫자를 반환
-// 3) 원래 순서를 그대로 두려면 0을 반환
-
-numbers.sort((a, b)=>{
-    return a > b ? 1 : -1;
+arr.sort((a, b) => {
+  return b - a;
 });
 
-내림차순
-numbers.sort((a, b) => a > b ? -1 : 1);
+numbers.sort((a, b)=>a > b ? 1 : -1);
 
+console.log(numbers); // [ 1, 2, 3, 5, 7, 9 ]
 
+//내림차순
+numbers.sort((a, b) => b - a);
 
-
-
-// filter()
+console.log(numbers); // [9, 7, 5, 3, 2, 1]
 
 
 // find()
-해당하는 첫번째 값만 반환한다.
-
+// 주어진 조건에 해당하는 첫 번째 요소의 값만 반환.
+// 없으면 undefined를 반환
+const find = people.find((item) => {
+  return item.name === '이름';
+});
 // findIndex()
+// 조건에 맞는 첫 번째 요소의 인덱스를 반환 
+// 없으면 -1을 반환
 
-```
-
-## map
-react에서 많이 사용합니다. (중요!)<br/>
-map과 reduce는 값을 내보내야 합니다.
-```js
-
-```
-
-## reduce
-
-배열의 값을 누적으로 연산하고 반환합니다.
-
-```js
-const arr = [1, 2, 3, 4, 5];
-
-//acc = 누적 item = arr의 값이 순환
-const sum = arr.reduce((acc, item) => acc + item, 0);
-
-console.log(sum); // 15
-```
-
-## forEach
-
-배열에서 루프가 필요할 때 사용
-
-파라미터로 주어진 함수를 배열 요소 각각에 대해 실행하는 메서드
-
-map 메서드와 비슷하지만 차이점은 return이 없다는 점
-
-```js
-array.forEach(function(currentValue, index, arr));
-```
-
-```js
-let pokemon = ['피카츄', '파이리', '꼬북이'];
-
-pokemon.forEach(myPoke);
-
-function myPoke(item) {
-  console.log(item); // 피카츄 파이리 꼬북이
-}
-```
-
-```js
-let pokemon = ['피카츄', '파이리', '꼬북이'];
-
-pokemon.forEach(myPoke);
-
-function myPoke(item, index, arr) {
-  arr[index] = 'Hello ' + item;
-}
-
-console.log(pokemon); // [ 'Hello 피카츄', 'Hello 파이리', 'Hello 꼬북이' ]
 ```
 
 ## from
@@ -161,8 +124,8 @@ console.log(Array.from('Hello'));
 // [ 'H', 'e', 'l', 'l', 'o' ]
 
 // 2. 유사 배열 객체를 배열로 만드는 예시
-console.log(Array.from({ 0: '찬민', 1: '희진', 2: '태인', length: 3 }));
-// [ '찬민', '희진', '태인' ]
+console.log(Array.from({ 0: '사과', 1: '복숭아', 2: '바나나', length: 3 }));
+// [ '사과', '복숭아', '바나나' ]
 
 // 3. 함수의 매개변수들을 순서대로 배열로 만드는 예시
 const funcA = (...arguments) => {
@@ -172,5 +135,3 @@ const funcA = (...arguments) => {
 console.log(funcA(1, 2, 3, 4, 5));
 // [ 1, 2, 3, 4, 5 ]
 ```
-
-##
