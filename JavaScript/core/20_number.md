@@ -5,40 +5,40 @@ number 에서 많이 사용하는 메서드
 ```js
 let number = 90_127.13100032;
 
-// 내림
-let floor = Math.floor(number);
-console.log('floor : ', floor);
+// Math.floor 내림 정수로 반환
+const roundDown = Math.floor(number);
+console.log(roundDown); //
 
-// 반올림
+// Math.round 반올림
 let round = Math.round(number);
 console.log('round : ', round);
 
-// 올림
+// Math.ceil 올림
 let ceil = Math.ceil(number);
 console.log('ceil : ', ceil);
 
-// 절삭(소수점 이하)
+// Math.trunc 절삭(소수점 이하)
 let truncate = Math.trunc(number);
 console.log('truncate : ', truncate);
 
-// 난수
+// Math.random 난수를 반환
+// 배열 요소 랜덤하게 반환할 때
 let random = Math.floor(Math.random() * 10);
 console.log('random : ', random);
 
-// 여러 수 중, 최댓값
+// Math.max 최댓값
 let max = Math.max(10, 100, 1000, 123, 5555);
-
 console.log('max : ', max);
 
-// 여러 수 중, 최솟값
+// Math.min 최솟값
 let min = Math.min(10, -10, -100, 123, 10000);
 console.log('min : ', min);
 
-// 거듭제곱
+// Math.pow 거듭제곱
 let pow = Math.pow(2, 53);
 console.log('pow : ', pow);
 
-// 절댓값
+// Math.abs 절댓값
 let abs = Math.abs(-1);
 console.log('abs : ', abs);
 

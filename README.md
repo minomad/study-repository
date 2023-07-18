@@ -28,8 +28,6 @@
 - [Closure 클로저](https://github.com/minomad/study-repository/blob/main/JavaScript/core/18_closure.md)
 - [원시값의 메서드](https://github.com/minomad/study-repository/blob/main/JavaScript/core/19_PrimitiveMethods.md)
 - [number 숫자형](https://github.com/minomad/study-repository/blob/main/JavaScript/core/20_number.md)
-  - [.floor()](https://github.com/minomad/study-repository/blob/main/JavaScript/core/20-1_floor.md)
-  - [.ramdom()](https://github.com/minomad/study-repository/blob/main/JavaScript/core/20-2_ramdom.md)
 - [string 문자열](https://github.com/minomad/study-repository/blob/main/JavaScript/core/21_string.md)
   - [.includes()](https://github.com/minomad/study-repository/blob/main/JavaScript/core/21-1_includes.md)
   - [.toLowerCase()](https://github.com/minomad/study-repository/blob/main/JavaScript/core/21-2_toLowerCase.md)
