@@ -28,7 +28,11 @@
 - [Closure 클로저](https://github.com/minomad/study-repository/blob/main/JavaScript/core/18_closure.md)
 - [원시값의 메서드](https://github.com/minomad/study-repository/blob/main/JavaScript/core/19_PrimitiveMethods.md)
 - [number 숫자형](https://github.com/minomad/study-repository/blob/main/JavaScript/core/20_number.md)
+  - [.floor()](https://github.com/minomad/study-repository/blob/main/JavaScript/core/20-1_floor.md)
+  - [.ramdom()](https://github.com/minomad/study-repository/blob/main/JavaScript/core/20-2_ramdom.md)
 - [string 문자열](https://github.com/minomad/study-repository/blob/main/JavaScript/core/21_string.md)
+  - [.includes()](https://github.com/minomad/study-repository/blob/main/JavaScript/core/21-1_includes.md)
+  - [.toLowerCase()](https://github.com/minomad/study-repository/blob/main/JavaScript/core/21-2_toLowerCase.md)
 - [array 배열](https://github.com/minomad/study-repository/blob/main/JavaScript/core/22_array.md)
   - [.reduce()](https://github.com/minomad/study-repository/blob/main/JavaScript/core/22-1_reduce.md)
   - [.map()](https://github.com/minomad/study-repository/blob/main/JavaScript/core/22-2_map.md)
@@ -41,7 +45,13 @@
 - [rest parametert](https://github.com/minomad/study-repository/blob/main/JavaScript/core/rest-parametert.md)
 - [arrow function](https://github.com/minomad/study-repository/blob/main/JavaScript/core/arrow-function.md)
 
-## dom
+## DOM
 
 - [BOM](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/1_BOM.md)
 - [DOM](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/2_DOM.md)
+- [.querySelector()](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/querySelector.md)
+- [속성과 프로퍼티](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/3_attribute.md)
+- [문서 수정](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/4_manipulation.md)
+- [스타일과 클래스](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/5_style.md)
+
+## 비동기
