@@ -51,5 +51,7 @@
 - [속성과 프로퍼티](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/3_attribute.md)
 - [문서 수정](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/4_manipulation.md)
 - [스타일과 클래스](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/5_style.md)
+- [이벤트](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/6_event.md)
+- [모듈](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/7_module.md)
 
 ## 비동기

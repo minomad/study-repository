@@ -118,3 +118,7 @@ const result_2 = sum(20, 30); // 50 반환
 const sum_result = result + result_2; //30 + 50
 console.log(sum_result); // 80
 ```
+
+## 콜백함수
+
+함수안에서 다른 함수를 실행
