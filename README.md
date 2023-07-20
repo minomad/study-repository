@@ -30,7 +30,6 @@
 - [number 숫자형](https://github.com/minomad/study-repository/blob/main/JavaScript/core/20_number.md)
 - [string 문자열](https://github.com/minomad/study-repository/blob/main/JavaScript/core/21_string.md)
   - [.includes()](https://github.com/minomad/study-repository/blob/main/JavaScript/core/21-1_includes.md)
-  - [.toLowerCase()](https://github.com/minomad/study-repository/blob/main/JavaScript/core/21-2_toLowerCase.md)
 - [array 배열](https://github.com/minomad/study-repository/blob/main/JavaScript/core/22_array.md)
   - [.reduce()](https://github.com/minomad/study-repository/blob/main/JavaScript/core/22-1_reduce.md)
   - [.map()](https://github.com/minomad/study-repository/blob/main/JavaScript/core/22-2_map.md)
