@@ -6,8 +6,7 @@
 function debounce(callback, limit = 100) {
   let timeout;
 
-  return function (...args) {
-    //클로저  이 변수는 디바운스된 함수가 마지막으로 호출된 이후 일정 시간이 지나기 전에 다시 호출되지 않도록 제어하는 역할을 합니다.
+  return function (...args) { //클로저 디바운스된 함수가 마지막으로 호출된 이후 일정 시간이 지나기 전에 다시 호출되지 않도록 제어하는 역할을 합니다.
     clearTimeout(timeout);
     timeout = setTimeout(() => {
       callback.apply(this, args); // limit시간이 지나면이 부분을 통해서 다시 this를 설정해서 콜백함수를 실행함
@@ -21,8 +20,7 @@ function debounce(callback, limit = 100) {
 ```js
 function throttle(callback, limit = 100) {
   let waiting = false;
-  return function () {
-    //이 변수는 쓰로틀된 함수가 이전 호출 이후 일정 시간이 지나기 전에 다시 호출되지 않도록 제어하는 역할을 합니다.
+  return function () {// 쓰로틀된 함수가 이전 호출 이후 일정 시간이 지나기 전에 다시 호출되지 않도록 제어하는 역할을 합니다.
     if (!waiting) {
       callback.apply(this, arguments);
       waiting = true;
