@@ -53,6 +53,7 @@
 - [스타일과 클래스](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/5_style.md)
 - [이벤트](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/6_event.md)
 - [모듈](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/7_module.md)
+- [Debounce&Throttle](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/Debounce&Throttle.md)
 - [localStorage](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/localStorage.md)
 
 ## 비동기
