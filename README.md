@@ -37,6 +37,7 @@
   - [.forEach()](https://github.com/minomad/study-repository/blob/main/JavaScript/core/22-4_forEach.md)
 - [arguments 유사배열 객체](https://github.com/minomad/study-repository/blob/main/JavaScript/core/23_aruments.md)
 - [재귀함수](https://github.com/minomad/study-repository/blob/main/JavaScript/core/24_재귀함수.md)
+- [옵셔널 체이닝](https://github.com/minomad/study-repository/blob/main/JavaScript/core/optionalchaining.md)
 - [try catch](https://github.com/minomad/study-repository/blob/main/JavaScript/core/try-catch.md)
 - [spread syntax](https://github.com/minomad/study-repository/blob/main/JavaScript/core/spread-syntax.md)
 - [rest parametert](https://github.com/minomad/study-repository/blob/main/JavaScript/core/rest-parametert.md)
@@ -52,5 +53,6 @@
 - [스타일과 클래스](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/5_style.md)
 - [이벤트](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/6_event.md)
 - [모듈](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/7_module.md)
+- [localStorage](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/localStorage.md)
 
 ## 비동기
