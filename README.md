@@ -60,5 +60,5 @@
 ## 비동기
 - [ajax](https://github.com/minomad/study-repository/blob/main/JavaScript/async/ajax.md)
 - [xhr](https://github.com/minomad/study-repository/blob/main/JavaScript/async/xhr.md)
-- [fetch]()
 - [promise](https://github.com/minomad/study-repository/blob/main/JavaScript/async/promise.md)
+- [fetch](https://github.com/minomad/study-repository/blob/main/JavaScript/async/fetch.md)
