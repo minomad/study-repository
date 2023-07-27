@@ -54,7 +54,7 @@
 - [이벤트](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/6_event.md)
 - [모듈](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/7_module.md)
 - [Debounce&Throttle](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/Debounce&Throttle.md)
-- [localStorage](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/localStorage.md)
+
 - [memoization](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/memoization.md)
 
 ## 비동기
@@ -62,3 +62,4 @@
 - [xhr](https://github.com/minomad/study-repository/blob/main/JavaScript/async/xhr.md)
 - [promise](https://github.com/minomad/study-repository/blob/main/JavaScript/async/promise.md)
 - [fetch](https://github.com/minomad/study-repository/blob/main/JavaScript/async/fetch.md)
+- [localStorage](https://github.com/minomad/study-repository/blob/main/JavaScript/async/localStorage.md)
