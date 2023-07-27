@@ -40,6 +40,8 @@ const elements = document.querySelectorAll('div.my-class[data-id="123"]');
 
 #### `closest`: 가장 가까운 상위(조상) 요소를 탐색하는데 자주 사용됩니다.
 
+설정한 대상을 찾는데 상위 부모까지 다 찾아서 확인 
+
 ```js
 const child = document.querySelector('.child');
 const parent = child.closest('.parent');
