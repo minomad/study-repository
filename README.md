@@ -58,8 +58,17 @@
 - [memoization](https://github.com/minomad/study-repository/blob/main/JavaScript/dom/memoization.md)
 
 ## 비동기
+
 - [ajax](https://github.com/minomad/study-repository/blob/main/JavaScript/async/ajax.md)
 - [xhr](https://github.com/minomad/study-repository/blob/main/JavaScript/async/xhr.md)
 - [promise](https://github.com/minomad/study-repository/blob/main/JavaScript/async/promise.md)
 - [fetch](https://github.com/minomad/study-repository/blob/main/JavaScript/async/fetch.md)
+- [patch](https://github.com/minomad/study-repository/blob/main/JavaScript/async/patch.md)
 - [localStorage](https://github.com/minomad/study-repository/blob/main/JavaScript/async/localStorage.md)
+
+---
+
+<br/>
+<br/>
+
+# [![React](https://skillicons.dev/icons?i=react)](https://skillicons.dev) React
