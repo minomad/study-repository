@@ -3,8 +3,8 @@
 > 학습 정리
 
 
-### JavaScript
+### [JavaScript](https://github.com/minomad/study-repository/tree/main/JavaScript)
 
 <!-- ### TypeScript -->
 
-### React
+### [React](https://github.com/minomad/study-repository/tree/main/React)
