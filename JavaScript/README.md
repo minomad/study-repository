@@ -1,5 +1,3 @@
-
-
 <br/>
 
 # [![javascript](https://skillicons.dev/icons?i=js)](https://skillicons.dev) Javscript
@@ -39,6 +37,7 @@
 - [try catch](https://github.com/minomad/study-repository/blob/main/JavaScript/core/try-catch.md)
 - [spread syntax](https://github.com/minomad/study-repository/blob/main/JavaScript/core/spread-syntax.md)
 - [rest parametert](https://github.com/minomad/study-repository/blob/main/JavaScript/core/rest-parametert.md)
+
 - [arrow function](https://github.com/minomad/study-repository/blob/main/JavaScript/core/arrow-function.md)
 
 ## DOM
@@ -62,6 +61,5 @@
 - [promise](https://github.com/minomad/study-repository/blob/main/JavaScript/async/promise.md)
 - [fetch](https://github.com/minomad/study-repository/blob/main/JavaScript/async/fetch.md)
 - [patch](https://github.com/minomad/study-repository/blob/main/JavaScript/async/patch.md)
-- [localStorage](https://github.com/minomad/study-repository/blob/main/JavaScript/async/localStorage.md)
 
----
+- [localStorage](https://github.com/minomad/study-repository/blob/main/JavaScript/async/localStorage.md)
