@@ -24,7 +24,12 @@ if (imageType === 'vite') {
 조건문을 사요하는 경우는 비동기통신때 사용
 
 ```jsx
-
+switch(status) {
+    case 'isPending': return <p>대기 중입니다.</p>
+    case 'isLoading': return <p>로딩 중입니다.</p>
+    case 'isError': return <p>오류 발생했어요.</p>
+    default:
+  }
 ```
 
 ## 조건식
