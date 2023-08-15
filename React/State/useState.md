@@ -1,3 +1,5 @@
+# useState
+
 const [상태변수, 상태업데이트함수] = useState(초기값)
 
 useState 훅을 사용할 때 생성된 상태 변수는 렌더링될 때마다 초기값을 가진다
