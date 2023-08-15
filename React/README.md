@@ -4,7 +4,7 @@
 
 - [컴포넌트](https://github.com/minomad/study-repository/blob/main/React/UI/component.md)
 
-- [속성](https://github.com/minomad/study-repository/blob/main/React/UI/props.md)
+- [속성(props)](https://github.com/minomad/study-repository/blob/main/React/UI/props.md)
 
 - [조건부 렌더링](https://github.com/minomad/study-repository/blob/main/React/UI/conditionalRendering.md)
 
@@ -12,9 +12,9 @@
 
 - [이벤트 핸들링]()
 
-## 상태관리
+## Hook
 
-- [useState](https://github.com/minomad/study-repository/blob/main/React/State/useState.md)
+- [useState](https://github.com/minomad/study-repository/blob/main/React/Hook/useState.md)
 
-- [useEffect](https://github.com/minomad/study-repository/blob/main/React/State/useEffect.md)
+- [useEffect](https://github.com/minomad/study-repository/blob/main/React/Hook/useEffect.md)
 
