@@ -14,7 +14,7 @@ const element = document.createElement(tagName);
 
 ---
 
-- `eforebegin`: 시작 태그 앞에 HTML을 삽입합니다.
+- `forebegin`: 시작 태그 앞에 HTML을 삽입합니다.
 - `afterbegin`: 태그안에 첫 번째 자식 요소 앞에 HTML을 삽입합니다.
 - `beforeend`: 마지막 자식 요소 뒤에 HTML을 삽입합니다.
 - `afterend`: 종료 태그 뒤에 HTML을 삽입합니다.
