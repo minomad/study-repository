@@ -38,12 +38,12 @@ const 변수명 = function 함수명() {}; //표현식은 ; 표기한다. 변수
 function Arr(arr) {
   console.log(arr[0]);
 }
-Arr(['banana', 2000]);
+Arr(["banana", 2000]);
 
 function Obj(obj) {
   console.log(obj.name);
 }
-Obj({ name: 'apple', price: 2000 });
+Obj({ name: "apple", price: 2000 });
 ```
 
 내부함수
@@ -96,13 +96,13 @@ const result = sum(10, 20); //리턴의 데이터 전달받음 (반환)
 function counter() {
   for (var count = 1; ; count++) {
     // 무한 반복
-    console.log(count + 'A'); // 5까지
+    console.log(count + "A"); // 5까지
     if (count === 5) {
       return;
     }
-    console.log(count + 'B'); // 4까지
+    console.log(count + "B"); // 4까지
   }
-  console.log(count + 'C'); // 절대 나타나지 않음
+  console.log(count + "C"); // 절대 나타나지 않음
 }
 
 counter();
@@ -122,3 +122,37 @@ console.log(sum_result); // 80
 ## 콜백함수
 
 함수안에서 다른 함수를 실행
+
+## 매개변수 기본값을 설정할 수 있는 또 다른 방법
+
+```js
+function showMessage(text) {
+  if (text === undefined) {
+    // 매개변수가 생략되었다면
+    text = "빈 문자열";
+  }
+
+  alert(text);
+}
+
+showMessage(); // 빈 문자열
+```
+
+```js
+// 매개변수가 생략되었거나 빈 문자열("")이 넘어오면 변수에 '빈 문자열'이 할당됩니다.
+function showMessage(text) {
+  text = text || '빈 문자열';
+  ...
+}
+```
+
+```js
+// 매개변수 'count'가 `undefined` 또는 `null`이면 'unknown'을 출력해주는 함수
+function showCount(count) {
+  alert(count ?? "unknown");
+}
+
+showCount(0); // 0
+showCount(null); // unknown
+showCount(); // unknown
+```
