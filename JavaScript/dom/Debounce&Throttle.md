@@ -17,6 +17,9 @@ function debounce(callback, limit = 100) {
 
 ## throttle
 
+쓰로틀 입력주기를 방해하지 않고 일정 시간 동안의 입력을 모아, 정해진 시간마다 이벤트를 호출<br/>       
+마지막 함수가 호출된 후 일정 시간이 지나기 전에 다시 호출되지 않도록 하는 것
+
 ```js
 function throttle(callback, limit = 100) {
   let waiting = false;

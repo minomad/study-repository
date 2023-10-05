@@ -13,7 +13,7 @@ click, mousemove, mouseover, mouseout, mousedown, mouseup 가 있음
 
 ```js
 setTimeout(() => {
-  first.removeEventListener('click', handleClick); // 나에게 걸려 있는 핸들러이기에 제거 이벤트는 함수를 호출해야한다.
+  first.removeEventListener("click", handleClick); // 나에게 걸려 있는 핸들러이기에 제거 이벤트는 함수를 호출해야한다.
   remove();
 }, 3000);
 ```
@@ -38,8 +38,8 @@ li -> ul -> div 순서로 이벤트가 발생
 
 ## 타겟
 
-e.currentTarget; - 이벤트를 발생시킨 대상 일반함수 this랑 같음  
-e.target; - 마우스가 처음 만난 이벤트
+e.currentTarget; - 이벤트를 발생시킨 대상 일반함수 this랑 같음 (클릭이벤트가 걸린 부모와 자식을 태그 반환)
+e.target; - 마우스가 처음 만난 이벤트 (클릭한 태그)
 
 ## 이벤트 위임
 
@@ -63,6 +63,6 @@ function 클릭함수() {
 }
 
 // remove라는걸 명시하기 위해서 변수에 할당
-const removeClickEvent = bindEvent(h1, 'click', 클릭함수);
+const removeClickEvent = bindEvent(h1, "click", 클릭함수);
 //removeClickEvent()
 ```
