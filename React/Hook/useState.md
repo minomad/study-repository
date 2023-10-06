@@ -9,11 +9,12 @@ const [상태변수, 상태업데이트함수] = useState(초기값);
 ```
 
 ```jsx
-const [state, setState] = useState(()=>{
+const [state, setState] = useState(() => {
   //초기화 함수를 넘길수도 있다
-  return 
-})
+  return;
+});
 ```
+
 useState 훅을 사용할 때 생성된 상태 변수는 렌더링될 때마다 초기값을 가진다
 
 함수형 컴포넌트가 렌더링될 때마다 상태 변수를 다시 생성하기 때문

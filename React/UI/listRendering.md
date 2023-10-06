@@ -3,14 +3,38 @@
 리액트에서 배열이나 리스트를 반환할때는 map이나 filter 메서드를 자주 사용
 
 ```jsx
-{statusMessage.map((message) => <li key={message}>{message}</li>);}
+function List() {
+  const listItems = list.map((item) => <li>{item}</li>);
+  return <ul>{listItems}</ul>;
+}
+```
+
+map을 변수에 담아서 반환할 수 있다
+
+```jsx
+{
+  statusMessage.map((message) => <li key={message}>{message}</li>);
+}
+```
+
+filter
+
+```jsx
+function List() {
+  const filterList = list.filter((item) => item.name.includes('name'));
+  const listItems = filterList.map((item) => <li>{item.name}</li>);
+
+  return <ul>{listItems}</ul>;
+}
 ```
 
 ### 역순
 
 ```jsx
 // reverse
-{statusMessage.map((message) => <li key={message}>{message}</li>).reverse();}
+{
+  statusMessage.map((message) => <li key={message}>{message}</li>).reverse();
+}
 
 // slice
 {
@@ -27,7 +51,9 @@
 
 // spread
 {
-  [...statusMessage].reverse().map((message) => <li key={message}>{message}</li>);
+  [...statusMessage]
+    .reverse()
+    .map((message) => <li key={message}>{message}</li>);
 }
 ```
 
@@ -38,7 +64,9 @@
 function DefinitionList() {
   const renderList = ({ reverse = false } = {}) => {
     const renderListItem = (message) => <li key={message}>{message}</li>;
-    return (!reverse ? statusMessage : statusMessage.toReversed()).map(renderListItem);
+    return (!reverse ? statusMessage : statusMessage.toReversed()).map(
+      renderListItem
+    );
   };
 }
 //reverse가 false면 순차 / reverse가 true면 역순
@@ -66,7 +94,7 @@ function DefinitionList() {
   Object.entries(reactLibrary).map(([key, value]) => {
     return (
       <div key={key}>
-        {' '}
+        {" "}
         {/* UI상 dt를 div로 묶어야함 */}
         <dt>{key}</dt>
         <dt>{value}</dt>
