@@ -41,26 +41,26 @@ function App() {
 
 export default App;
 ```
+
 main.jsx
 
 ```jsx
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./index.css";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
-
 ```
 
 index.html
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -81,3 +81,11 @@ index.html
 
 랜더링은 언제든 발생 할 수 있기에 컴포넌트는 서로의 랜더링 순서에 의존해서는 안됨
 
+## 상태는 UI 트리 위치에 연결
+
+동일 위치의 동일 컴포넌트는 상태를 유지 / 다른 컴포넌트는 상태 초기화
+
+동일 위치 상태 재설정하는 방법
+
+1. 다른 위치에서 컴포넌트 렌더링
+2. key를 사용해 각 컴포넌트에 고유한 값을 설정
