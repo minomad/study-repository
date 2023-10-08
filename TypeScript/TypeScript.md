@@ -6,6 +6,19 @@
 - 제너릭
 - 인터페이스
 
+## 초기설정
+
+> npm i -g typescript
+> tsc --init
+
+> npm install tslint typescript -g
+> tslint --init
+> tslint -c tslint.json 'src/\*_/_.ts'
+
+Airbnb 스타일
+
+> npm i tslint-config-airbnb
+
 타입을 만들 수 있다.
 
 ```tsx
