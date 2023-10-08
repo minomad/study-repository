@@ -26,12 +26,12 @@ export default Button;
 App.jsx
 
 ```jsx
-import Button from './components/Button'; //버튼 컴포넌트 가져오기
-import './App.css';
+import Button from "./components/Button"; //버튼 컴포넌트 가져오기
+import "./App.css";
 
 function App() {
   return (
-    <div">
+    <div>
       <Button>로그인</Button>
       <Button>회원가입</Button>
       <Button>Disabled</Button>
