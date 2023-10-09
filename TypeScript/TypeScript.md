@@ -8,18 +8,44 @@
 
 ## 초기설정
 
-> npm i -g typescript
-> tsc --init
+#### 타입스크립트 설치
 
-> npm install tslint typescript -g
-> tslint --init
-> tslint -c tslint.json 'src/\*_/_.ts'
+```
+npm i -g typescript
+```
 
-Airbnb 스타일
+```
+tsc --init
+```
 
-> npm i tslint-config-airbnb
+#### TSLint
 
-타입을 만들 수 있다.
+```
+npm install tslint typescript -g
+```
+
+```
+tslint --init
+tslint -c tslint.json 'src/\*_/_.ts'
+```
+
+## Airbnb 스타일
+
+npm i tslint-config-airbnb
+
+## Google TypeScript Style
+
+```
+npx gts init
+```
+
+## TSDX
+
+```
+npx tsdx create <프로젝트_이름>
+```
+
+## 실전
 
 ```tsx
 import { useState } from "react";
