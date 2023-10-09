@@ -1,4 +1,4 @@
-// interface
+//! interface
 
 type Score = "A" | "B" | "c" | "F";
 
@@ -18,7 +18,7 @@ let user: User = {
   2: "B",
 };
 
-// number
+//! number
 interface Add {
   (num1: number, num2: number): number;
 }
@@ -29,7 +29,7 @@ const add: Add = function (x, y) {
 
 add(10, 20);
 
-// boolean
+//! boolean
 interface IsAdult {
   (age: number): boolean;
 }
@@ -40,7 +40,7 @@ const a: IsAdult = (age) => {
 
 a(30); //true
 
-// implements
+//! implements
 
 interface Car {
   color: string;
