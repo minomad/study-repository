@@ -52,6 +52,8 @@ interface Toy {
   name: string;
 }
 
+//@ 상속
+
 interface ToyCar extends Car, Toy {
   price: number;
 }
