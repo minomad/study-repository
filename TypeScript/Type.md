@@ -56,6 +56,8 @@ x = [10, "hello"]; // Error
 
 void 0은 undefined와 같다. 명시적으로 반환 값을 설정하지 않는 함수는 undefined를 반환하기에 TypeScript에서는 void를 명시
 
+아무것도 반환하지 않을때 void 사용
+
 ```ts
 function add(x: number, y: number): number {
   return x + y;
