@@ -36,3 +36,13 @@ const [index, setIndex] = useState(0)
 이미 가지고 있는 상태를 바로 변경되지 않음
 
 `컴포넌트가  리-랜더링될때 상태변수의 값이 변경됨`
+
+```jsx
+const [view, setView] = useState(false);
+
+const page = view ? <Cart /> : <List />;
+
+const content = <>{page}</>;
+
+return content;
+```
