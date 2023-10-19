@@ -18,7 +18,7 @@ function pushPairItem<T, M>(arr: arr, item: [T, M]): arr {
   return arr;
 }
 
-// piarArray 타입으로 설정된 data 배열 선언
+// piarArray 타입으로 설정된 data 배열선언
 const data: arr = [];
 
 // 멀티 타입을 지정한 후, 적절한 타입을 포함하는 데이터 추가
