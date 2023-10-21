@@ -15,3 +15,7 @@
 ### [<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white" style="height:25px"/>](https://github.com/minomad/study-repository/tree/main/TypeScript)
 
 ### [<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black" style="height:25px"/>](https://github.com/minomad/study-repository/tree/main/React)
+
+<!-- ### [<img src="https://img.shields.io/badge/Zustand-764ABC?style=flat-square" style="height:25px"/>](https://github.com/minomad/study-repository/tree/main/Zustand) -->
+
+### [<img src="https://img.shields.io/badge/Next-000000?style=flat-square&logo=Next.js&logoColor=white" style="height:25px"/>](https://github.com/minomad/study-repository/tree/main/React/Next.js)
