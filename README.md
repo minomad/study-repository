@@ -18,4 +18,4 @@
 
 <!-- ### [<img src="https://img.shields.io/badge/Zustand-764ABC?style=flat-square" style="height:25px"/>](https://github.com/minomad/study-repository/tree/main/Zustand) -->
 
-### [<img src="https://img.shields.io/badge/Next-000000?style=flat-square&logo=Next.js&logoColor=white" style="height:25px"/>](https://github.com/minomad/study-repository/tree/main/React/Next.js)
+### [<img src="https://img.shields.io/badge/Next-000000?style=flat-square&logo=Next.js&logoColor=white" style="height:25px"/>](https://github.com/minomad/study-repository/tree/main/Next.js)
